@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_layout</item>
+        <item name="colorPrimaryDark">@color/backgroundColor</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <!-- Navigation Drawer -->
+        <item name="colorNavigationItem">@color/colorPrimary</item>
+        <item name="colorNavigationItemSelected">@color/colorWhite</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+    </style>
+    <style name="ToolbarTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/secondaryTextColor</item>
+        <item name="colorControlNormal">@color/secondaryTextColor</item>
+        <item name="backgroundTint">@color/backgroundColor</item>
+    </style>
+    <style name="TransparentView">
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">?attr/colorNavigationItem</item>
+        <item name="itemTextColor">?attr/colorNavigationItem</item>
+        <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
+    </style>
+    <style name="CardViewTheme">
+        <item name="cardBackgroundColor">@color/backgroundColor</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">5dp</item>
+    </style>
+
+    <style name="ToolsButtonTheme">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <!--<item name="itemHorizontalPadding">@dimen/navigation_item_padding</item>
+        <item name="elevation">@dimen/navigation_drawer_elevation</item>-->
+
+</resources>
